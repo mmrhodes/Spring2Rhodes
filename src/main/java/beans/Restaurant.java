@@ -65,7 +65,7 @@ public class Restaurant {
 	}
 	@Override
 	public String toString() {
-		return restaurantName + ", in " + location + ", $" + df.format(costPerPerson) + " per person at " +  lunchOrSupper + "\n";
+		return restaurantName + ", in " + location + ", $" + df.format(costPerPerson) + " at " +  lunchOrSupper + "\n";
 	}
 	
 	
